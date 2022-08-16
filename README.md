@@ -18,6 +18,25 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+## Using web3uikit
+Install  using ```yarn add web3uikit```.
+
+## Styling with TailwindCSS
+The following instructions are derived from the [TailwindCSS documentation](https://tailwindcss.com/docs/guides/nextjs).
+
+```bash
+yarn add --dev tailwindcss postcss autoprefixer
+
+yarn tailwindcss init -p # generates posts.config.js and tailwind.config.js
+```
+Now overwrite tailwind.config.js with code from step three in the [TailwindCSS documentation](https://tailwindcss.com/docs/guides/nextjs). Next, overwrite the code in styles/global.css with code from step four.
+
+Finally, we can add styles to our divs, headers etc. by adding specific classNames (view [examples](https://tailwindcss.com/docs/border-widthTo)). Multiple different styles can be added to a single element by adding spaces in-between, e.g.,
+
+```html
+<div className="p-5 border-b-2 flex flex-row”>…</div>
+````
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

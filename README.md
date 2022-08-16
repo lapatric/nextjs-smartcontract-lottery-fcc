@@ -32,3 +32,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Deploy in a decentralized manner (IPFS)
+An easy service to upload and host your website in a decentralized manner using IPFS is offered by https://fleek.co/.
+Watch the tutorial for more details here: https://youtu.be/gyMwXuJrbJQ?t=65598

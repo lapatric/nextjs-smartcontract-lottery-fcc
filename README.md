@@ -1,8 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+To start a new NextJS project run the following command inside a new working directory.
+```
+yarn create next-app .
+```
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
@@ -35,7 +39,7 @@ Finally, we can add styles to our divs, headers etc. by adding specific classNam
 
 ```html
 <div className="p-5 border-b-2 flex flex-row”>…</div>
-````
+```
 
 ## Learn More
 
